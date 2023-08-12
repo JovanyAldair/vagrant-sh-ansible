@@ -1,0 +1,8 @@
+sudo: true
+user: vagrant
+tasks:
+  - name: "Updating packages"
+  - shell: sudo apt-get update
+
+  - name: "Install nginx"
+  - shell: sudo apt-get -y install nginx
