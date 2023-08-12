@@ -6,7 +6,7 @@ This repo. contains vagrant labs of ansible.
 
 ## Lab_01
 
-The vagrant will execute the Vagrantfile in this directory, and will create tree machine with ubuntu/lunar image:
+The vagrant will execute the Vagrantfile in this directory, and will create three machine with ubuntu/lunar image:
 
 > - Master
 > - Slave01
