@@ -24,20 +24,18 @@ The Slaves will be provisioned by local ansible, where he will be install:
 
 On block:
 
-`
-slave01.vm.provision "ansible_local" do |ansible|
+`slave01.vm.provision "ansible_local" do |ansible|
       ansible.playbook = "playbook.yml"
 end
 `
-And on block:
+<br>
+And on block: 
+<br>
 
-`
-slave02.vm.provision "ansible_local" do |ansible|
+`slave02.vm.provision "ansible_local" do |ansible|
       ansible.playbook = "playbook.yml"
 end
-
 `
-
 ## Usage
 
 To setup this VM, execute:
