@@ -29,12 +29,14 @@ slave01.vm.provision "ansible_local" do |ansible|
       ansible.playbook = "playbook.yml"
 end
 `
-And:
+And on block:
 
 `
 slave02.vm.provision "ansible_local" do |ansible|
       ansible.playbook = "playbook.yml"
 end
+
+`
 
 ## Usage
 
